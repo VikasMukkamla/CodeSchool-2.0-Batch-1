@@ -3,6 +3,7 @@ svg{
 }
 .icon{
     text-decoration: none;
+    align-items: center;
 }
 .header3{
     background-color: #F3F3F3;
@@ -19,4 +20,14 @@ a{
 .card-img-top{
     height: 200px;
     width: 200px;
+}
+navbar{
+    color: black;
+}
+@media screen and (min-width-720px){
+  .mobile-icons{
+      height: 24px;
+      width: 24px;
+  }
+    
 }
