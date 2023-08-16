@@ -99,9 +99,11 @@ function validateUsername() {
     }
   }
   function signUp(){
+   
     validateUsername();
     validateEmail();
     validatePassword();
     validatePassword2();
+   
 
   }
